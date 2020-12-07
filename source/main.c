@@ -27,6 +27,7 @@ void transmit_data(unsigned char data){
     PORTC |= 0x04;
     //clears all lines in preparation of a new transmission
     PORTC = 0x00;
+}
 
 int main(void) {
     /* Insert DDR and PORT initializations */
