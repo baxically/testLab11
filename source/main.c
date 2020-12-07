@@ -34,7 +34,7 @@ int main(void) {
     PORTC = 0x00;
     /* Insert your solution below */
     while (1) {
-        PORTC[5] = 1;
+        PORTC = 1;
     }
     return 1;
 }
