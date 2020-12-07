@@ -33,9 +33,12 @@ int main(void) {
     /* Insert DDR and PORT initializations */
     DDRC = 0xFF;
     PORTC = 0x00;
+    DDRD = 0xFF;
+    PORTD = 0x00;
     /* Insert your solution below */
     while (1) {
-        PORTC = 1;
+        PORTC = 0xFF;
+        PORTD = 0x00;
     }
     return 1;
 }
